@@ -21,3 +21,35 @@
   right: 0;
   z-index: 10;
 }
+
+.popup__input_type_error {
+  border-bottom: 1px solid #FF0000;
+}
+
+.popup__error {
+  font-size: 12px;
+  line-height: 15px;
+  color: #FF0000;
+  display: block;
+  margin-top: 5px;
+  min-height: 30px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.popup__error_visible {
+  opacity: 1;
+}
+
+.popup__button_disabled {
+  background: #FFFFFF;
+  color: #000000;
+  border: 1px solid #000000;
+  opacity: 0.2;
+  cursor: default;
+}
+
+.popup__button_disabled:hover {
+  background: #FFFFFF;
+  opacity: 0.2;
+}
